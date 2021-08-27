@@ -1,9 +1,4 @@
 {
-    "date": {
-        "time": "02:45 PM",
-        "day": "07/12/2020 (Today)"
-    },
-    "confirmation": "SUL-TL7",
     "customers": [
         {
             "name": "Sam",
@@ -30,5 +25,8 @@
         "tax": ".008",
         "total": "26.46",
         "card": "5233"
-    }
+    },
+    "time": "02:45 PM",
+    "day": "07/12/2020 (Today)",
+    "confirmation": "SUL-TL7"
 }

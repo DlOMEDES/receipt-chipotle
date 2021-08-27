@@ -1,26 +1,42 @@
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
     font-weight: bold;
 }
 
 h1 {
-    font-size: 86px;
+    font-size: 68px;
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 22px;
 }
 
 .text-bold {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .sup-text {
-    font-size: 14px;
+    font-size: 12px;
     span {
         text-decoration: underline;
         margin-left: 5px;
     }
+}
+
+.text-order {
+    font-size: 22px;
+    font-weight: bold;
+}
+.clr-olive {
+    color: #b19c85;
+}
+
+.border-bottom {
+    border-bottom: 0.5px solid $light-gray;
+    width: 95%;
+    margin-bottom: 25px;
 }
