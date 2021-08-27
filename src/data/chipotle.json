@@ -1,0 +1,34 @@
+{
+    "date": {
+        "time": "02:45 PM",
+        "day": "07/12/2020 (Today)"
+    },
+    "confirmation": "SUL-TL7",
+    "customers": [
+        {
+            "name": "Sam",
+            "title": "barbacoa bowl",
+            "ingredients": "roasted chili-corn salsa (extra), sour cream (side), fresh tomato salsa, cheese (light), fajita veggies (extra), romaine lettuce, black beans (extra), brown rice (extra), tortilla on the side.",
+            "price": "8.50"
+        },
+        {
+            "name": "James",
+            "title": "steak bowl",
+            "ingredients": "roasted chili-corn salsa (extra), sour cream (side), tomatillo-green chili salsa (side), fresh tomato salsa, cheese (light), fajita veggies (extra), black beans (extra), brown rice, tortilla on the side.",
+            "price": "8.50"
+        },
+        {
+            "name": "Jane",
+            "title": "chiecken bowl",
+            "ingredients": "roasted chili-corn salsa (extra), sour cream (side), fresh tomato salsa, cheese (light), fajita veggies, romaine lettuce, black beans (extra), white rice, tortilla on the side.",
+            "price": "7.50"
+        }
+    ],
+    "amount": {
+        "bag": "24.5",
+        "subtotal": "24.5",
+        "tax": ".008",
+        "total": "26.46",
+        "card": "5233"
+    }
+}

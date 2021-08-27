@@ -1,0 +1,21 @@
+h1,
+h2 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.text-bold {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sup-text {
+    font-size: 12px;
+    span {
+        text-decoration: underline;
+        margin-left: 5px;
+    }
+}
