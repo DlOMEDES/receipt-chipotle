@@ -26,8 +26,8 @@ confirmation: 9TL-RA9
                 <img src="https://i.imgur.com/1AOd8Xz.png" alt="chipotle-bag" />
             </center>
             <p class="text-center text-bold">ESTIMATED PICKUP TIME:</p>
-            <h1 class="text-center">{{time}}</h1>
-            <p class="text-center text-bold">{{date}}</p>
+            <h1 class="text-center">{{chipotle.time}}</h1>
+            <p class="text-center text-bold">{{chipotle.date}}</p>
             <spacer></spacer>
 
             <p class="text-center text-bold sup-text">
@@ -35,7 +35,7 @@ confirmation: 9TL-RA9
                 <span class="text-bold clr-olive">CONTACT SUPPORT</span>
             </p>
             <p class="text-center">Confirmation Number</p>
-            <p class="text-center text-bold">{{confirmation}}</p>
+            <p class="text-center text-bold">{{chipotle.confirmation}}</p>
         </columns>
     </row>
 </container>
@@ -64,19 +64,20 @@ confirmation: 9TL-RA9
 
 <container>
     <p class="text-center text-bold">Order Details</p>
+    {{#each chipotle.customers}}
     <row>
         <columns small="6">
-            <p class="text-order clr-olive">Diomedes</p>
+            <p class="text-order clr-olive">{{this.name}}</p>
             <row>
-                <p class="text-bold">Barbacoa</p>
+                <p class="text-bold">{{this.title}}</p>
             </row>
         </columns>
         <columns small="6">
-            <p class="text-right text-order clr-olive">$8.50</p>
+            <p class="text-right text-order clr-olive">${{this.price}}</p>
         </columns>
     </row>
     <row>
-        <columns>
+        <columns large="6">
             <p>
                 roasted chili-corn salsa (extra), sour cream (side),
                 tomatillo-green chili salsa (side), fresh tomato salsa, cheese
@@ -86,6 +87,7 @@ confirmation: 9TL-RA9
         </columns>
     </row>
     <hr class="border-bottom" />
+    {{/each}}
 </container>
 
 <container>
@@ -119,6 +121,90 @@ confirmation: 9TL-RA9
                 <br />
                 XXXXXXXXXX5404
             </p>
+        </columns>
+    </row>
+</container>
+
+<container>
+    <spacer></spacer>
+    <center>
+        <img
+            src="https://i.imgur.com/ine9FIL.png"
+            alt="Rolling chipotle burrito"
+        />
+    </center>
+
+    <spacer size="25"></spacer>
+    <row>
+        <columns>
+            <p class="text-center text-bold">
+                How was your visit? Tell us for a chance to win FREE Chipotle
+                for a year!
+            </p>
+            <spacer></spacer>
+            <center>
+                <button class="small">TAKE THE SURVEY</button>
+            </center>
+            <p class="text-center text-small">
+                For complete rules visit our website.
+            </p>
+        </columns>
+    </row>
+    <center>
+        <menu>
+            <item class="text-link" href="#">DOWNLOAD OUR APP</item>
+            <item class="text-link" href="#">CATERING</item>
+            <item class="text-link" href="#">DELIVERY</item>
+        </menu>
+    </center>
+    <spacer></spacer>
+    <p class="text-center text-small">Cultivate A Better World.</p>
+    <spacer></spacer>
+    <center>
+        <menu>
+            <item class="text-link" href="#">
+                <img src="https://i.imgur.com/T4Spl0q.png" alt="" />
+            </item>
+            <item class="text-link" href="#">
+                <img src="https://i.imgur.com/IuFYinx.png" alt="" />
+            </item>
+            <item class="text-link" href="#">
+                <img src="https://i.imgur.com/18YMj5O.png" alt="" />
+            </item>
+        </menu>
+    </center>
+
+    <hr class="border-bottom" />
+</container>
+
+<container>
+    <row>
+        <columns>
+            <p class="text-small text-center">
+                This email was sent to
+                <span class="footspan">diomedes.lajara@gmail.com</span>
+            </p>
+            <p class="text-center text-small">
+                <span class="footspan">Customer Service</span>
+            </p>
+
+            <p class="text-small text-center">
+                Chipotle Mexican Grill, Inc - 610 Newport Center <br />
+                Drive - Newport Beach, CA 92660 - USA <br />
+                &copy;2020 Chipotle Mexican Grillm Inc.
+            </p>
+
+            <p class="text-center text-small">
+                * Rewards are for regular-priced entree items only and expire
+                after 60 days. <br />
+                Restrictions apply, void where prohibited. Ful program terms
+                <span class="footspan">here</span>
+            </p>
+
+            <p class="footspan text-center text-small">
+                Chipotle Rewards Terms of Use
+            </p>
+            <p class="footspan text-center text-small">Privacy Policy</p>
         </columns>
     </row>
 </container>

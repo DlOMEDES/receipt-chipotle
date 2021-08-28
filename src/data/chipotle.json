@@ -2,19 +2,19 @@
     "customers": [
         {
             "name": "Sam",
-            "title": "barbacoa bowl",
+            "title": "Barbacoa Bowl",
             "ingredients": "roasted chili-corn salsa (extra), sour cream (side), fresh tomato salsa, cheese (light), fajita veggies (extra), romaine lettuce, black beans (extra), brown rice (extra), tortilla on the side.",
             "price": "8.50"
         },
         {
             "name": "James",
-            "title": "steak bowl",
+            "title": "Steak Bowl",
             "ingredients": "roasted chili-corn salsa (extra), sour cream (side), tomatillo-green chili salsa (side), fresh tomato salsa, cheese (light), fajita veggies (extra), black beans (extra), brown rice, tortilla on the side.",
             "price": "8.50"
         },
         {
             "name": "Jane",
-            "title": "chiecken bowl",
+            "title": "Chicken Bowl",
             "ingredients": "roasted chili-corn salsa (extra), sour cream (side), fresh tomato salsa, cheese (light), fajita veggies, romaine lettuce, black beans (extra), white rice, tortilla on the side.",
             "price": "7.50"
         }
@@ -27,6 +27,6 @@
         "card": "5233"
     },
     "time": "02:45 PM",
-    "day": "07/12/2020 (Today)",
+    "date": "07/12/2020 (Today)",
     "confirmation": "SUL-TL7"
 }
